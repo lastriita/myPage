@@ -1,0 +1,60 @@
+<!DOCTYPE html>
+<html lang="es">
+<title>MyPage</title>
+<head>
+  <meta charset="utf-8">
+  <title>HTML</title>
+  <meta name="viewport" content="width=device-width, initial-scale=1.0">
+  <link rel="stylesheet" type="text/css" href="estilo.css">
+</head>
+
+<header>
+  <a href="http://www.tesla.com">
+    <img src="https://upload.wikimedia.org/wikipedia/commons/thumb/b/bd/Tesla_Motors.svg/2000px-Tesla_Motors.svg.png" class="logo">
+  </a>
+  <img src="https://cdn.freebiesupply.com/logos/thumbs/2x/tesla-model-3-3-logo.png" class="model">
+  <nav>
+		<ul class="horizontal">
+			<li><a href="./main.html">Inicio</a></li>
+			<li><a href="./video.html">Vídeos</a></li>
+			<li><a href="./comprar.html">Comprar</a></li>
+			<li><a href="./contacto.html">Contacto</a></li>
+		</ul>
+  </nav>
+</header>
+
+<body class="fondo3">
+  <form action="./contacto.html" method="post">
+    <div>
+      <label for="name">Nombre:</label>
+      <br>
+      <input type="text" id="name" name="user_name">
+    </div>
+    <div>
+      <label for="mail">Correo electrónico:</label>
+      <br>
+      <input type="email" id="mail" name="user_mail">
+    </div>
+    <div>
+      <label for="msg">Mensaje:</label>
+      <br>
+      <textarea id="msg" name="user_message"></textarea>
+    </div>
+    <div>
+    <button type="submit">Envíe su mensaje</button>
+    </div>
+  </form>
+  <div class="black">
+   <p>
+    Tesla Headquarters
+    <br>
+    3500 Deer Creek Road
+    <br>
+    Palo Alto, CA 94304
+   </p>
+   <p>
+    Press@tesla.com
+   </p>
+  </div>
+</body>
+</html>
